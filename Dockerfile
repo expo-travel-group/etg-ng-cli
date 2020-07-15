@@ -1,4 +1,4 @@
-FROM trion/ng-cli
+FROM trion/ng-cli:latest
 
 ARG SSH_DIR="/etc/ssh"
 ARG SSH_CONFIG="/etc/ssh/config"
